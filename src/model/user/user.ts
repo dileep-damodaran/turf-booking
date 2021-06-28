@@ -8,7 +8,6 @@ export interface IUser{
     email: string,
     country_code: string,
     phone: string,
-    is_verified: boolean,
     is_active: boolean,
     is_deleted: boolean
 }

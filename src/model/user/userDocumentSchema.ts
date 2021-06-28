@@ -18,7 +18,6 @@ let userSchema = new mongoose.Schema({
     email: { type: String, unique: false, required: false },
     country_code: { type: String, unique: false, required: false },
     phone: { type: String, unique: false, required: false },
-    is_verified: { type: Boolean, unique: false, required: true, default: false },
     is_active: { type: Boolean, unique: false, required: true, default: true },
     is_deleted: { type: Boolean, unique: false, required: true, default: false }
 },
